@@ -28,6 +28,7 @@ https://github.com/kontext-tech/winutils
 - spark packages with hadoop 3 are not working when writing parquet files
 - spark packages with hadoop 2.7 are working
 - No delta lake support is provided for spark 3.3
+- Best combination enabling delta lake support: `spark-3.2.1-bin-hadoop2.7` and winutils from `hadoop-2.7.7`
 
 ### Unpack and create following directories
 
