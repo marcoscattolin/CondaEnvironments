@@ -22,6 +22,10 @@ pip install autopep8 plotly openpyxl statsmodels pandas-profiling pmdarima pycar
 pip install tensorflow opencv-python Pillow
 ```
 
+3.2 pip install openai/gym for reinforcement learning
+```
+pip install gym[all]
+```
 
 4. conda install pytables
 ```
