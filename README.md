@@ -7,4 +7,4 @@ Install Anaconda and then follow specific markdown instructions to create enviro
 - pyspark.md: derived from base_ds, includes pyspark
 
 
-Hello_* notebooks are used to test installation is successful
+hello_* notebooks are used to test installation is successful
