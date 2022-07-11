@@ -1,6 +1,6 @@
 # Environment pyspark
 
-Derived from base_ds, derived from base_ds, includes pyspark
+Derived from base_ds, includes pyspark
 
 ## Prerequisites
 ### Java 8 Runtime environment
