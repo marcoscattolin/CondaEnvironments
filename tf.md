@@ -62,7 +62,7 @@ jupyter nbextension enable nbextensions_configurator/config_menu/main --user
 jupyter nbextension enable toggle_all_line_numbers/main --user
 ```
 
-6. Make .bat files for one-click-launch
+6. Make tf.bat file for one-click-launch
 ```
 @echo off
 call C:\Anaconda3\condabin\activate tf
