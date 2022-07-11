@@ -34,7 +34,7 @@ conda install libpython m2w64-toolchain -c msys2
 pip install pystan==2.19.1.1
 ```
 
-3.1 pip install pymc, prophet and arviz
+3.3 pip install pymc, prophet and arviz
 ```
 pip install arviz pymc3 prophet
 ```
