@@ -32,15 +32,18 @@ https://github.com/kontext-tech/winutils
 
 ### Unpack and create following directories
 
-- Unpack downloaded spark archive into (example for spark 3.2.1)<br>
-`C:\spark\spark-3.2.1-bin-hadoop2.7`
+- Unpack downloaded spark archive into `C:\spark\spark-3.2.1-bin-hadoop2.7` (example for spark 3.2.1 Pre-built for Apache Hadoop 2.7) 
 
-- Create directory (example for hadoop 2.7.7)<br>
-`C:\spark\hadoop-2.7.7\bin`<br>
-and copy winutils.exe inside it
+- Create directory (example for hadoop 2.7.7)
+  ```
+  C:\spark\hadoop-2.7.7\bin
+  ```
+  and copy inside it winutils.exe downdloaded form https://github.com/kontext-tech/winutils
 
-- Create directory<br>
-`C:\zz_spark_temp\spark_scratch`
+- Create directory
+  ```
+  C:\zz_spark_temp\spark_scratch
+  ```
 
 
 ## Installation
