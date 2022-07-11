@@ -17,12 +17,19 @@ activate tf
 pip install autopep8 plotly openpyxl statsmodels pandas-profiling pmdarima pycaret altair beautifulsoup4 bokeh bottleneck cloudpickle cython dask dill h5py ipympl ipywidgets matplotlib numba numexpr pandas patsy protobuf scikit-image scikit-learn scipy seaborn sqlalchemy statsmodels sympy widgetsnbextension xlrd notebook jupyter_contrib_nbextensions
 ```
 
-3.1 pip install tensorflow (and other related) packages
+3.1 pip install GPU support (if on machine with GPU)
+```
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+```
+Details at: https://www.tensorflow.org/install/pip#windows
+
+
+3.2 pip install tensorflow (and other related) packages
 ```
 pip install tensorflow opencv-python Pillow
 ```
 
-3.2 pip install openai/gym for reinforcement learning
+3.3 pip install openai/gym for reinforcement learning
 ```
 pip install gym[all]
 ```
