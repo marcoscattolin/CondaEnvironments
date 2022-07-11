@@ -74,3 +74,11 @@ jupyter nbextension enable nbextensions_configurator/config_menu/main --user
 jupyter nbextension enable toggle_all_line_numbers/main --user
 ```
 
+6. Make prob.bat file for one-click-launch
+```
+@echo off
+call C:\Anaconda3\condabin\activate tf
+cd C:\Users\marcoscattolin
+call jupyter notebook
+pause
+```
